@@ -9,4 +9,7 @@ namespace :version do
     end
   end
 
+  task :show do
+    puts File.read("VERSION")
+  end
 end
